@@ -1,0 +1,59 @@
+:root {
+  --color-brand1: #819b57;
+  --color-brand2: #465929;
+  --color-primary-darck: #31261a;
+  --color-primary-ligt: #faf4ea;
+}
+
+/* ----BASE-STYLE */
+body {
+  color: var(--color-primary-darck);
+}
+ul {
+  list-style: none;
+}
+/* BASE-STYLE */
+
+/* -----BUTTON-------- */
+.button {
+  color: var(--color-primary-ligt);
+  background-color: var(--color-brand1);
+  border: 2px, solid, var(--color-brand1);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--color-brand1);
+  background-color: transparent;
+}
+/* -----BUTTON-------- */
+/* -------LINK-------- */
+.link {
+  color: var(--color-primary-ligt);
+}
+.link:hover {
+  color: var(--color-brand1);
+}
+/* -------LINK-------- */
+
+/* -----HERO-TITLE----- */
+.hero-title {
+  color: var(--color-primary-ligt);
+}
+
+.hero-title .accent {
+  color: var(--color-brand1);
+}
+
+/* -----HERO-TITLE----- */
+/* ----ADVANT-LIST----- */
+.advantagest-list {
+  background-color: var(--color-brand1);
+  color: var(--color-primary-ligt);
+}
+/* ----ADVANT-LIST----- */
+/* ----SECTION-TITLE */
+.section-title .accent {
+  color: var(--color-brand2);
+}
+/* -----SeCTION-TITLE */
