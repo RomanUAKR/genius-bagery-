@@ -1,3 +1,36 @@
+/* poppins-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/poppins-v24-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v24-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/poppins-v24-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 :root {
   --color-brand1: #819b57;
   --color-brand2: #465929;
@@ -8,9 +41,16 @@
 /* ----BASE-STYLE */
 body {
   color: var(--color-primary-darck);
+  font-size: 18px;
+  font-family: "Poppsns", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
 }
 ul {
   list-style: none;
+}
+address {
+  font-style: normal;
 }
 /* BASE-STYLE */
 
@@ -21,6 +61,7 @@ ul {
   border: 2px, solid, var(--color-brand1);
   border-radius: 8px;
   cursor: pointer;
+  font-weight: 600;
 }
 .button:hover {
   color: var(--color-brand1);
@@ -30,15 +71,20 @@ ul {
 /* -------LINK-------- */
 .link {
   color: var(--color-primary-ligt);
+  text-decoration: none;
 }
 .link:hover {
   color: var(--color-brand1);
+  font-weight: 600;
 }
 /* -------LINK-------- */
 
 /* -----HERO-TITLE----- */
 .hero-title {
   color: var(--color-primary-ligt);
+  text-align: center;
+  font-size: 128px;
+  font-weight: 900;
 }
 
 .hero-title .accent {
@@ -50,10 +96,60 @@ ul {
 .advantagest-list {
   background-color: var(--color-brand1);
   color: var(--color-primary-ligt);
+  font-size: 20px;
+  font-weight: 300;
 }
 /* ----ADVANT-LIST----- */
 /* ----SECTION-TITLE */
+.section-title {
+  font-size: 64px;
+  font-weight: 600;
+}
 .section-title .accent {
   color: var(--color-brand2);
 }
 /* -----SeCTION-TITLE */
+/* -----Trad-section------- */
+.traditions-text span {
+  text-transform: uppercase;
+  color: var(--color-brand1);
+  font-weight: 600;
+}
+.p2 span {
+  color: var(--color-brand1);
+  font-weight: 600;
+}
+/* -----Trad-section------- */
+/* ----CHEFS-TiTLE----- */
+.chefs-title {
+  font-size: 40px;
+  font-weight: 600;
+}
+/* ----CHEFS-TiTLE----- */
+
+/* ----FORMATS-TITLe */
+.formats-title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.format-text {
+  font-size: 14px;
+  font-weight: 300;
+}
+/* ----FORMATS-TITLe */
+
+/* -----FOOTER------ */
+
+.adress {
+  color: var(--color-primary-ligt);
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.danni {
+  font-size: 14px;
+  font-weight: 400;
+  color: #a18268;
+}
