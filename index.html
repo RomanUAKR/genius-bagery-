@@ -9,16 +9,26 @@
   <body>
     <header>
       <div class="container">
-        <a href="/index.html"><img src="/img/logo.svg" alt="logo" /></a>
-        <nav>
-          <ul>
-            <li><a class="link" href="#traditions">Наші традиції</a></li>
-            <li><a class="link" href="#chefs">Шеф-кухарі</a></li>
-            <li><a class="link" href="#formats">Формати</a></li>
-            <li><a class="link" href="#contakt">Контакти</a></li>
-          </ul>
-        </nav>
-        <button type="button" class="button">Замовити дзвінок</button>
+        <div class="header-container">
+          <a href="/index.html"><img src="/img/logo.svg" alt="logo" /></a>
+          <nav class="header-nav">
+            <ul class="header-meny">
+              <li>
+                <a class="link" href="#traditions">Наші традиції</a>
+              </li>
+              <li>
+                <a class="link" href="#chefs">Шеф-кухарі</a>
+              </li>
+              <li>
+                <a class="link" href="#formats">Формати</a>
+              </li>
+              <li>
+                <a class="link" href="#contakt">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+          <button type="button" class="button">Замовити дзвінок</button>
+        </div>
       </div>
     </header>
     <main>
@@ -29,8 +39,7 @@
           </h1>
         </div>
       </section>
-
-      <section>
+      <section class="advend-section">
         <div class="container">
           <h2 class="hidden">Наші переваги</h2>
           <ul class="advantagest-list">
@@ -43,21 +52,27 @@
 
       <section class="section traditions" id="traditions">
         <div class="container">
-          <h2 class="section-title traditions-title">Новий формат традицій</h2>
-          <p class="traditions-text">
-            <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
-            зберегла смак традиційної випічки та натуральність інгредієнтів.
-          </p>
-          <p class="p2">
-            Ми працюємо як найвідоміші мережі—
-            <span>5 хвилин і замовлення готове.</span>
-            А ще у наших пекарень стильний дизайн та висока якість
-            обслуговування!
-          </p>
-          <img
-            src="/img/backer-man.jpg"
-            alt="Чоловік пекар дивиться на батони"
-          />
+          <div class="tradition-conteiner">
+            <div class="tradition-content">
+              <h2 class="section-title traditions-title">
+                Новий формат традицій
+              </h2>
+              <p class="traditions-text">
+                <span>shop bakery</span> — це пекарня, яка взяла все найкраще, і
+                зберегла смак традиційної випічки та натуральність інгредієнтів.
+              </p>
+              <p class="p2 lim">
+                Ми працюємо як найвідоміші мережі —
+                <span>5 хвилин і замовлення готове.</span>
+                А ще у наших пекарень стильний дизайн та висока якість
+                обслуговування!
+              </p>
+            </div>
+            <img
+              src="/img/backer-man.jpg"
+              alt="Чоловік пекар дивиться на батони"
+            />
+          </div>
         </div>
       </section>
 
@@ -93,9 +108,9 @@
       <section class="section" id="formats">
         <div class="container">
           <h2 class="section-title format-title">Формати</h2>
-          <ul>
+          <ul class="format-list">
             <li>
-              <article>
+              <article class="format-card">
                 <h3 class="formats-title" lang="en">Walrus</h3>
                 <div class="format-text">
                   <p>Площа: до 120 м2</p>
@@ -109,7 +124,7 @@
               </article>
             </li>
             <li>
-              <article>
+              <article class="format-card">
                 <h3 class="formats-title" lang="en">Horseshoe</h3>
                 <div class="format-text">
                   <p>Площа: до 25 м2</p>
@@ -120,7 +135,7 @@
               </article>
             </li>
             <li>
-              <article>
+              <article class="format-card">
                 <h3 class="formats-title" lang="en">Handlebar</h3>
                 <div class="format-text">
                   <p>Площа: до 15 м2</p>
