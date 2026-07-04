@@ -78,12 +78,13 @@
 
       <section class="section" id="chefs">
         <div class="container">
-          <h2 class="section-title chef-title">
-            Нащі <span class="accent">шеф-кухарі</span>
+          <h2 class="section-title chef-title centered">
+            Нащі найкращі <span class="accent">шеф-кухарі</span>
           </h2>
           <ul>
             <li>
               <article>
+                <img class="chefs-foto" src="/img/nastya.jpg" alt="nastya" />
                 <h3 class="chefs-title">Настя</h3>
                 <p>Привіт, я Настя</p>
                 <p>Вже 10 років, я свтілюю у життя цікаві та смачні ідеї.</p>
@@ -92,6 +93,7 @@
             </li>
             <li>
               <article>
+                <img class="chefs-foto" src="/img/vlad.jpg" alt="vlad" />
                 <h3 class="chefs-title">Влад</h3>
                 <p>Привіт, я Влад!</p>
                 <p>
@@ -107,7 +109,12 @@
 
       <section class="section" id="formats">
         <div class="container">
-          <h2 class="section-title format-title">Формати</h2>
+          <h2 class="section-title format-title centered">Формати</h2>
+          <button class="carusel" type="button">
+            <svg class="format-strilka" width="16px" height="16px">
+              <use href="/img/sprite-icon.svg#icon-strilka"></use>
+            </svg>
+          </button>
           <ul class="format-list">
             <li>
               <article class="format-card">
@@ -146,6 +153,11 @@
               </article>
             </li>
           </ul>
+          <button class="carusel" type="button">
+            <svg class="format-strilka" width="16" height="16">
+              <use href="/img/sprite-icon.svg#icon-strilka"></use>
+            </svg>
+          </button>
         </div>
       </section>
 
@@ -165,7 +177,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footer">
       <div class="container">
         <a href="/index.html"><img src="/img/logo.svg" alt="logo" /></a>
         <nav>
@@ -197,8 +209,20 @@
                 >Україна, м. Київ, вул. Січових Стрільців 54
               </a>
             </li>
-            <li><a href="">face</a></li>
-            <li><a href=""></a>insta</li>
+            <li>
+              <a href="#">
+                <svg class="adres-icon" width="32px" height="32px">
+                  <use href="/img/sprite-icon.svg#icon-fb"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <svg class="adres-icon" width="32px" height="32px">
+                  <use href="/img/sprite-icon.svg#icon-insta"></use>
+                </svg>
+              </a>
+            </li>
             <li>
               <a class="adress" href="" target="_blank"
                 >Політика конфіденційності</a
